@@ -2,7 +2,9 @@
 
 ## Install
 
-Clone example source code from github:
+### Checkout source code
+
+Clone example source code from github repository:
 
 ```shell
 git clone https://github.com/opwire/sample-cmdline-bash.git
@@ -14,7 +16,15 @@ Change the current working directory to the project folder:
 cd sample-cmdline-bash
 ```
 
-Download and extract the latest [`opwire-agent`](https://github.com/opwire/opwire-agent/releases/latest) program into this directory.
+### Download `opwire-agent`
+
+To download the latest `opwire-agent` on Linux/macOS/BSD systems, run:
+
+```shell
+curl https://opwire.org/opwire-agent/install.sh | bash
+```
+
+For other systems, manually download and extract the latest [`opwire-agent`](https://github.com/opwire/opwire-agent/releases/latest) program into this directory.
 
 ## Test the service using `curl`
 
