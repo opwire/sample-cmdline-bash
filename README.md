@@ -31,7 +31,7 @@ For other systems, manually download and extract the latest [`opwire-agent`](htt
 Execute the following command:
 
 ```shell
-./opwire-agent -p=8888 --default-command="time"
+./opwire-agent serve -p=8888
 ```
 
 Run the default command:
